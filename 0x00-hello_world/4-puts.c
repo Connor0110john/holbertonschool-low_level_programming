@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * 
- * Description: prints "Programming is like building a multilingual puzzle"
- * 
+ * main - entry point
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
