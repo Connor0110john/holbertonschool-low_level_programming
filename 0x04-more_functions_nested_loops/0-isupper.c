@@ -1,19 +1,9 @@
-/*
- * File: 0-isuperr.c
- *
- */
-
-#include "main.h"
 #include <stdio.h>
 
 /**
- * isupper - checks for upppercase characters
- * return: 1 if character is uppercase, 0 otherwise.
+ * _isuper - check if a letter is upper
+ * @x: the number to be checked
+ *
+ * Return:1 for upper letter or 0 for any else
  */
-int _isupper(int c)
-{
-	if (c >= 'A' && c <= 'Z')
-		return (1);
-	else
-		return (0);
-}
+int _isupper(
