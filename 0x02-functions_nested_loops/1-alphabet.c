@@ -1,25 +1,18 @@
-#include <stdio.h>
-
-void print_alphabet(void)
+#include "main.h"
 
 /**
- * main -check the code  
+ * print_alphabet - as says
  *
- * Return: Always 0.
+ * return: always 0.
  */
-	int main(void) {
-		print_alphabet();
-		return 0;
-	}
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char c;
-
-	for (c = 'a' ; c <= 'z' ; c++)
+	
+	for (c = 'a'; c <= 'z'; ++c)
 	{
-		putchar(c);
+		_putchar(c);
 	}
-	putchar('\n');
+	_putchar('/n');
 }
-
