@@ -1,9 +1,12 @@
 #include <stdio.h>
-/* use _putchar to print _putchar followed by a new line
- * return 0;
+/**
+ * main - Entry point
+ *
+ * description: Use _putchar to print _putchar followed by a new line
+ * Return: Always 0 (Success)
  */
-
-int main(){
+int main(void)
+{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -12,5 +15,6 @@ int main(){
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	return (0);
+	_putchar('\n');
+	Return(0);
 }
