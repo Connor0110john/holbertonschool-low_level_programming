@@ -1,22 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - check code
- *
- * Return: Always 0.
+ * print_alphabet - print alphabet in uppercase
  */
-#include <stdio.h>
-int main(void)
-	/*code here
-	 */
-print_alphabet(void)
-	/*print alphabet
-	 */
+void print_alphabet(void)
 {
 	char c;
 
 	for (c = 'A'; c <= 'Z'; ++c)
+	putchar(c);
+	putchar('\n');
+}
 
-	printf("%c ", c);
+/**
+ * main - entry point of the program
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+	print_alphabet();
 	return (0);
 }
