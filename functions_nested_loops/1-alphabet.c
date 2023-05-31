@@ -1,21 +1,21 @@
 #include <stdio.h>
-
 /**
- * print_alphabet - print alphabet in uppercase
+ * print_alphabet - print the alphabet
+ *
  */
 void print_alphabet(void)
 {
 	char c;
 
-	for (c = 'A'; c <= 'Z'; ++c)
+	for (c = 'a'; c <= 'z'; ++c)
 	putchar(c);
 	putchar('\n');
 }
 
 /**
- * main - entry point of the program
+ * main - entry point
  *
- * Return: Always 0
+ * Return: Awlays 0
  */
 int main(void)
 {
