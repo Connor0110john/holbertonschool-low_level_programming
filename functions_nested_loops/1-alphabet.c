@@ -7,9 +7,11 @@
  */
 #include <stdio.h>
 int main(void)
-	//code here
+	/*code here
+	 */
 print_alphabet(void)
-	//print alphabet
+	/*print alphabet
+	 */
 {
 	char c;
 
