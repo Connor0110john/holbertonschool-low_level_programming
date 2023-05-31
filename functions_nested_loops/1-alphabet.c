@@ -7,7 +7,7 @@
  */
 #include <stdio.h>
 int main(void)
-{
+{	void print_alphabet();
 	char c;
 
 	for (c = 'A'; c <= 'Z'; ++c)
