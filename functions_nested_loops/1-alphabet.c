@@ -3,20 +3,15 @@
 /**
  * main - check code
  *
- * print_alphabet - print the alphabet
- *
  * Return: Always 0.
  */
+#include <stdio.h>
 int main(void)
 {
-	void print_alphabet(void);
-
 	char c;
 
-	for (c = 'a'; c <= 'z'; c++)
-	{
-		putchar(c);
-	}
-	putchar('\n');
+	for (c = 'A'; c <= 'Z'; ++c)
+
+	printf("%c ", c);
 	return (0);
 }
