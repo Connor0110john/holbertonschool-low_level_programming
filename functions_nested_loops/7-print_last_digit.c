@@ -5,7 +5,7 @@
  * @n: interger number
  * Return: last digit of n..
  */
-int print_last_digit(int);
+int print_last_digit(int)
 {
 	int m;
 
