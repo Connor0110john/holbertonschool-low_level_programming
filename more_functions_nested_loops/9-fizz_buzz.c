@@ -14,22 +14,22 @@ int main(void)
 	for (n = 1; n <= 100; n++)
 	{
 		if ((n % 3) == 0 && (n % 5) == 0)
-			_printf("FizzBuzz");
+			dprintf("FizzBuzz");
 
 		else if ((n % 3) == 0)
-			_printf("Fizz");
+			dprintf("Fizz");
 
 		else if ((n % 5) == 0)
-			_printf("Buzz");
+			dprintf("Buzz");
 
 		else
-			_printf("%d", n);
+			dprintf("%d", n);
 
 		if (n == 100)
 			continue;
-		_printf(' ');
+		dprintf(' ');
 	}
-	_printf('\n');
+	dprintf('\n');
 
 	return (0);
 }
