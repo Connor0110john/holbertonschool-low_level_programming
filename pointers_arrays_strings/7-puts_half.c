@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
-/** puts_half - Prints half of string
+/**
+ * puts_half - Prints half of string
  * @str: the sring to be printed.
  */
 void puts_half(char *str)
