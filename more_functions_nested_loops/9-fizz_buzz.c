@@ -14,24 +14,24 @@ int main(void)
 	while (n <= 100)
 	{
 		if (n % 3 == 0 && n % 5 == 0)
-			printf("\i\n\t FizzBuzz");
+			printf("FizzBuzz");
 
 		else if (n % 3 == 0)
-			printf("\i\n\t Fizz");
+			printf("Fizz");
 
 		else if (n % 5 == 0)
-			printf("\i\n\t Buzz");
+			printf("Buzz");
 
 		else
-			printf("\i\n\t %d", n);
+			printf("%d", n);
 
 		if (n != 100)
 
-			printf("\i\n\t ");
+			printf(" ");
 		n++;
 
 	}
-	printf("\i\n\t \n");
+	printf("\n");
 
 	return (0);
 }
