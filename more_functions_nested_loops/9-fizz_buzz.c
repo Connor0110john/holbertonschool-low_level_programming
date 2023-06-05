@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Prints numbers from 1-100, but for multiples of three,
  * Fizz is printed instead of the number, for multiples of five
@@ -13,22 +14,22 @@ int main(void)
 	for (n = 1; n <= 100; n++)
 	{
 		if ((n % 3) == 0 && (n % 5) == 0)
-			dprintf("FizzBuzz");
+			_putchar("FizzBuzz");
 
 		else if ((n % 3) == 0)
-			dprintf("Fizz");
+			_putchar("Fizz");
 
 		else if ((n % 5) == 0)
-			dprintf("Buzz");
+			_putchar("Buzz");
 
 		else
-			dprintf("%d", n);
+			_putchar("%d", n);
 
 		if (n == 100)
 			continue;
-		dprintf(' ');
+		_putchar(' ');
 	}
-	dprintf('\n');
+	_putchar('\n');
 
 	return (0);
 }
