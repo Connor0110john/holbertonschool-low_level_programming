@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * _strcpy - copies a string pointed to by @src, including the termination null bye, to a buffer pointed to by @dest
  * @dest: a buffer to copy the string to
