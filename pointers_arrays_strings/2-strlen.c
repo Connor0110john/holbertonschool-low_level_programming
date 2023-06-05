@@ -4,7 +4,10 @@
 /**
  * _strlen - returns lenght of string.
  * Return: @*s is lenght of string.
+ *
+ * @*s: lenght of string.
  */
+
 int _strlen(char *s)
 {
 	size_t l = 0;
