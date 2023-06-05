@@ -31,7 +31,7 @@ int main(void)
 		n++;
 
 	}
-	printf('\n');
+	printf("int \n");
 
 	return (0);
 }
