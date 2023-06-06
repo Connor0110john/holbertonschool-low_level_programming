@@ -2,23 +2,28 @@
 #include <stdio.h>
 
 /**
- * _strcpy - prints
- * @dest: char
- * @src: char
- * Return: pointer
+ * _atoi - convert string to integer
+ * @s: string to be converted
+ * Return: corverted number
  */
-char *_strcpy(char *dest, char *src)
+
+int _atoi(char *s)
 {
-	char *tmp;
+	int sign, i;
+	unsigned int num;
 
-	tmp = dest;
-
-	while (*src != 0)
+	num = 0, sign = 1, i = 0;
+	while (s[i] && (s[i] < 48 || s[i] > 57))
 	{
-		*dest = *src;
-		dest++;
-		src++;
+		if (s[i] == 45)
+			sign *= -1;
+		i++;
 	}
-	*dest = 0;
-	return (tmp);
+	
+	while (s[i] && (s[i] > 47 && s[i] < 58))
+	{
+		num = (num * 10) + (s[i] - 48);
+		i++;
+	}
+	return (!num ? 0 : num * sign);
 }
