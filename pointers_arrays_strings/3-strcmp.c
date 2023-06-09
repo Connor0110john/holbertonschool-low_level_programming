@@ -5,7 +5,7 @@
  * @s1: string one
  * @s2: string two
  *
- * return: int value
+ * Return: int value
  */
 int _strcmp(char *s1, char *s2)
 
