@@ -13,6 +13,7 @@
 
 char *_strcat(char *dest, char *src)
 {
+	int n = 0
 	size_t dest_len = strlen(dest);
 	size_t i;
 
