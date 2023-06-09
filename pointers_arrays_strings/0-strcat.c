@@ -13,13 +13,19 @@
 
 char *_strcat(char *dest, char *src)
 {
-	int dest_len = 0, n;
-	size_t dest_len = strlen(dest);
-	size_t i;
+	int dlen = 0, i;
 
-	for (i = 0 ; i < n && src[i] != '\0' ; i++)
-		dest[dest_len + i] = src[i];
-	dest[dest_len + i] = '\0';
+	while (dest[dlen])
+	{
+		dlen++;
+	}
 
-return (dest);
+	for (i = 0; src[i] != 0; i++)
+	{
+		dest[dlen] = src[i];
+		dlen++;
+	}
+
+	dest[dlen] = '\0';
+	return (dest);
 }
