@@ -9,7 +9,7 @@
  * Return: the sring from character found
  */
 
-char *_strchr(char *s, char c);
+char *_strchr(char *s, char c)
 {
 	int a = 0, b;
 
