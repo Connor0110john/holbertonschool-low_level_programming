@@ -1,7 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
+/*
+ * main - prints postive, negative, or 0 based on randome number.
+ *
+ *
+ *
+ */
 int main(void)
 {
 	int n;
