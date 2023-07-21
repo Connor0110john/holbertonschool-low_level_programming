@@ -2,7 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - prints postive, negative, or 0 based on randome number.
+ * main - entry point
+ * Description: Print if n is positive, negative or zero.
+ * Return: Always 0 
  *
  *
  *
