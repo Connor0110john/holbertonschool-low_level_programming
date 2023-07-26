@@ -2,7 +2,7 @@
 
 /*
  * main - entry point
- * Description - prints the alphabet in lowercase, follwed by a new line.
+ * description: prints the alphabet in lowercase, follwed by a new line.
  * Return: Return 0
  */
 
